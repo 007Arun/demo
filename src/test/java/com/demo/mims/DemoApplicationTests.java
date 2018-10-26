@@ -26,5 +26,4 @@ public class DemoApplicationTests extends JerseyTest{
 		String Response = target("/first/test").request().get(String.class);
 		System.out.println(Response +"Arun");
 	}
-
 }
